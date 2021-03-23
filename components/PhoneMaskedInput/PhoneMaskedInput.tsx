@@ -10,7 +10,7 @@ export interface IProps {
 export const PhoneMaskedInput = ({ control, error }: IProps) => {
   return (
     <div className="flex flex-col">
-      <label htmlFor="phone" className="self-start text-left text-white">
+      <label htmlFor="phone" className="self-start text-left text-white mb-1.5">
         Telefone <span className="text-red-400">*</span>
       </label>
       <Controller
@@ -29,7 +29,7 @@ export const PhoneMaskedInput = ({ control, error }: IProps) => {
       />
       {error && (
         <p className="self-start text-left text-xs text-red-400 mt-1">
-          Telefone inválido.
+          O número inserido é inválido.
         </p>
       )}
     </div>
