@@ -36,4 +36,10 @@ module.exports = {
       full: "100%",
     },
   },
+  variants: {
+    extend: {
+      opacity: ["disabled"],
+      cursor: ["disabled"],
+    },
+  },
 }
