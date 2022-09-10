@@ -3,7 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-wpp-green: #25D366;
+  --color-wpp-dark-green: #00af9c;
+  --color-wpp-dark-green-light: #26beae;
+  --color-wpp-app-bg: #090e11;
+  --color-wpp-bg: #131c21;
+  --color-wpp-bg-active: #323739;
+  --color-wpp-bg-hover: #2d3134;
+  --color-wpp-border: #242d32;
+  --color-wpp-border-panel: #30373b;
+}
+
 #__next {
   height: 100vh;
   width: 100vw;
+  background-color: var(--color-wpp-app-bg);
 }

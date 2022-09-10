@@ -1,3 +1,3 @@
-import { PhoneMaskedInput } from "./PhoneMaskedInput"
+import { PhoneMaskedInput } from './PhoneMaskedInput';
 
-export default PhoneMaskedInput
+export default PhoneMaskedInput;
